@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.TeaShop;
+import com.xworkz.constructor.things.TeaShop;
 
 public class TeaShopRunner {
 	

@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.Learning;
+import com.xworkz.constructor.things.Learning;
 
 public class LearningRunner {
 

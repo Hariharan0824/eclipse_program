@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.CandyShop;
+import com.xworkz.constructor.things.CandyShop;
 
 public class CandyShopRunner {
 	public static void main(String args[]) {

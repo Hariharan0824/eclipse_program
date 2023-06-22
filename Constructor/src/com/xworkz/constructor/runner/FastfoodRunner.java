@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.Fastfood;
+import com.xworkz.constructor.things.Fastfood;
 
 public class FastfoodRunner {
 	

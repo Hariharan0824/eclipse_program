@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.Presentation;
+import com.xworkz.constructor.things.Presentation;
 
 public class PresntationRunner {
  public static void main(String args[]) {

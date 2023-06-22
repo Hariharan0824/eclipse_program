@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.CallCenter;
+import com.xworkz.constructor.things.CallCenter;
 
 public class CallCenterRunner {
 	

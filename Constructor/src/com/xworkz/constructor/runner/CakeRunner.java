@@ -1,6 +1,6 @@
 package com.xworkz.constructor.runner;
 
-import com.xworkz.constructor.runner.things.Cake;
+import com.xworkz.constructor.things.Cake;
 
 public class CakeRunner {
 
