@@ -5,7 +5,7 @@ public class OlympicRespositoryImpl implements OlympicRespositoryInterface{
 	private String[] name = new String[MAX];
 	private int index=0;
 	
-s
+
 	@Override
 	public void visited(String name) {
 		System.out.println("Patient visited "+name+" hospital.");
