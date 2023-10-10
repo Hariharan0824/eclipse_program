@@ -1,4 +1,4 @@
-6package com.xworkz.interfaces;
+package com.xworkz.interfaces;
 
 public interface CourtRepository {
 
