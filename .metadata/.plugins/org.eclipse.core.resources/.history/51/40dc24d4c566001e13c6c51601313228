@@ -1,0 +1,11 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.Collection;
+import java.util.HashSet;
+
+public class PlayersRunnerDTO {
+	
+	Collection<PlayersDTO> collection1=new HashSet<>();
+	Collection<PlayersDTO> collection2=new HashSet<>();
+
+}

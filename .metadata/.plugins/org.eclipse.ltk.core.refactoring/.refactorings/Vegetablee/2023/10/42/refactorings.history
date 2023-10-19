@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;WarDTO.java&apos; to &apos;Vegetablee/src/main/java/com.xwrokz.VegetableRunner&apos;&#x0D;&#x0A;- Original project: &apos;Vegetablee&apos;&#x0D;&#x0A;- Destination element: &apos;Vegetablee/src/main/java/com.xwrokz.VegetableRunner&apos;&#x0D;&#x0A;- Original element: &apos;WarDTO.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xwrokz.VegetableRunner" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;{WarDTO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1697435906098" units="1" version="1.0"/>
+</session>

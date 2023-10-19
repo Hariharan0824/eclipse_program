@@ -1,0 +1,78 @@
+package com.xwrokz.VegetableRunner;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedList;
+
+import java.util.List;
+
+public class WarRunner {
+
+	public static void main(String[] args) {
+		
+		
+		
+		PresidentDTO dto1=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dto2=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dto3=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		Collection<PresidentDTO> collection1= new LinkedList<PresidentDTO>();
+		collection1.add(dto1);
+		collection1.add(dto2);
+		collection1.add(dto3);
+		
+		CountryDTO dto4=new CountryDTO(1,"war","asia",dto1);
+		CountryDTO dto5=new CountryDTO(1,"war","asia",dto2);
+		CountryDTO dto6=new CountryDTO(1,"war","asia",dto3);
+		Collection<CountryDTO> collection2= new LinkedList<CountryDTO>();
+		collection2.add(dto4);
+		collection2.add(dto5);
+		collection2.add(dto6);
+		
+		WarDTO wardto1=new WarDTO(1,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987),collection2,"india");
+		
+		PresidentDTO dto7=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dto8=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dto9=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		Collection<PresidentDTO> collection3= new LinkedList<PresidentDTO>();
+		collection1.add(dto7);
+		collection1.add(dto8);
+		collection1.add(dto9);
+		
+		CountryDTO dto10=new CountryDTO(1,"war","asia",dto7);
+		CountryDTO dto11=new CountryDTO(1,"war","asia",dto8);
+		CountryDTO dto12=new CountryDTO(1,"war","asia",dto9);
+		Collection<CountryDTO> collection4= new LinkedList<CountryDTO>();
+		collection4.add(dto10);
+		collection4.add(dto11);
+		collection4.add(dto12);
+		
+		WarDTO wardto2=new WarDTO(1,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987),collection4,"india");
+		
+		PresidentDTO dto13=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dto14=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dto15=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		Collection<PresidentDTO> collection5= new LinkedList<PresidentDTO>();
+		collection1.add(dto13);
+		collection1.add(dto14);
+		collection1.add(dto15);
+		
+		CountryDTO dto16=new CountryDTO(1,"war","asia",dto7);
+		CountryDTO dto17=new CountryDTO(1,"war","asia",dto8);
+		CountryDTO dto18=new CountryDTO(1,"war","asia",dto9);
+		Collection<CountryDTO> collection6= new LinkedList<CountryDTO>();
+		collection4.add(dto16);
+		collection4.add(dto17);
+		collection4.add(dto18);
+		
+		WarDTO wardto3=new WarDTO(1,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987),collection4,"india");
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+}

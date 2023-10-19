@@ -1,0 +1,26 @@
+package things;
+
+public class Testone {
+	String email1="test@gmail.com";
+	String password1="test";
+	int[] ticket= {1,2,3,4,5,6,7,8,9,10};
+	
+	public Testone() {
+		System.out.println("No-arg constructor");
+	}
+	
+	
+	public void accept(String email1,String password1,int[] ticket) {
+		if(email1.equals(email1) && password1.equals(password1) && ticket.equals(ticket)) {
+			System.out.println("Welcome to the page");
+		}else {
+			System.out.println("Incorrect email and password");
+		}
+	}
+	public void movie() {
+		System.out.println("Movie tickets"+ticket);
+	}
+
+	
+
+}

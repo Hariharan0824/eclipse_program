@@ -1,0 +1,10 @@
+package com.xwrokz.VegetableRunner;
+
+public class Test1Runner {
+ 
+	public static void main(String[] args) {
+		
+		Test1 name = new Test1(2/2/23,23,2,234,34534,333,"false",A);
+		System.out.println("The values is :"+name);
+	}
+}

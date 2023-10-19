@@ -1,0 +1,86 @@
+package com.xwrokz.VegetableRunner;
+
+import java.time.LocalDate;
+
+public class WarDTO {
+
+	private Integer id;
+	private LocalDate startDate;
+	private LocalDate endDate;
+	private String won;
+	public WarDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public WarDTO(int id, int startDate, int endDate, String won) {
+		super();
+		this.id = id;
+		this.startDate = startDate;
+		this.endDate = endDate;
+		this.won = won;
+	}
+	@Override
+	public String toString() {
+		return "WarDTO [id=" + id + ", startDate=" + startDate + ", endDate=" + endDate + ", won=" + won + "]";
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + endDate;
+		result = prime * result + id;
+		result = prime * result + startDate;
+		result = prime * result + ((won == null) ? 0 : won.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		WarDTO other = (WarDTO) obj;
+		if (endDate != other.endDate)
+			return false;
+		if (id != other.id)
+			return false;
+		if (startDate != other.startDate)
+			return false;
+		if (won == null) {
+			if (other.won != null)
+				return false;
+		} else if (!won.equals(other.won))
+			return false;
+		return true;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getStartDate() {
+		return startDate;
+	}
+	public void setStartDate(int startDate) {
+		this.startDate = startDate;
+	}
+	public int getEndDate() {
+		return endDate;
+	}
+	public void setEndDate(int endDate) {
+		this.endDate = endDate;
+	}
+	public String getWon() {
+		return won;
+	}
+	public void setWon(String won) {
+		this.won = won;
+	}
+	
+	
+	
+	
+}

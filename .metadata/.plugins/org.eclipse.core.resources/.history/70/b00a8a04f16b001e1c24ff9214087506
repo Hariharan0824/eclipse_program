@@ -1,0 +1,23 @@
+package com.xwrokz.VegetableRunner;
+
+import java.time.LocalDate;
+import java.util.Collection;
+
+public class WarDTO {
+
+	private Integer id;
+	private LocalDate startDate;
+	private LocalDate endDate;
+	private Collection<CountryDTO> countriesParticipated;
+	private String wonBy;
+	
+	public WarDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+}

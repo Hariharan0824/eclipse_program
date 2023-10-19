@@ -16,5 +16,5 @@ public class Password {
 		this.password = password;
 	}
 
-	
+
 }

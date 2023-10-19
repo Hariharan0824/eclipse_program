@@ -1,0 +1,17 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.Collection;
+import java.util.HashSet;
+
+import com.xwrokz.Vegetable.DTO.VegetableDTO;
+
+public class VegetablesDTO {
+	
+Collection<VegetableDTO> vegetable=new HashSet<VegetableDTO>();
+
+VegetableDTO dto= new VegetableDTO(1,"carrot",40,1);
+VegetableDTO dto1= new VegetableDTO(2,"beans",60,3);
+VegetableDTO dto2= new VegetableDTO(3,"potato",20,3);
+VegetableDTO dto3= new VegetableDTO(4,"onion",10,4);
+
+}

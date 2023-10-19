@@ -1,0 +1,19 @@
+package com.xwrokz.VegetableRunner;
+
+import java.time.LocalDate;
+
+public class PresidentDTO {
+
+	private int id;
+	private String name;
+	private int age;
+	private LocalDate durationStart;
+	private LocalDate durationEnd;
+	public PresidentDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}

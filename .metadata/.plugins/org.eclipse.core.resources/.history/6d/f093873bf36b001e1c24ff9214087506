@@ -1,0 +1,40 @@
+package com.xwrokz.VegetableRunner;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedList;
+
+import java.util.List;
+
+public class WarRunner {
+
+	public static void main(String[] args) {
+		
+		
+		
+		PresidentDTO dto=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dt4=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		PresidentDTO dt5=new PresidentDTO(1,"WorldWar",23,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987));
+		Collection<PresidentDTO> collection1= new LinkedList<PresidentDTO>();
+		collection1.add(dto);
+		collection1.add(dt4);
+		collection1.add(dt5);
+		
+		CountryDTO dto1=new CountryDTO(1,"war","asia",dto);
+		CountryDTO dto3=new CountryDTO(1,"war","asia",dto);
+		Collection<CountryDTO> collection2= new LinkedList<CountryDTO>();
+		collection2.add(dto1);
+		collection2.add(dto3);
+		
+		WarDTO dto2=new WarDTO(1,LocalDate.of(11, 11,1987),LocalDate.of(11, 11,1987),collection2,"india");
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+}

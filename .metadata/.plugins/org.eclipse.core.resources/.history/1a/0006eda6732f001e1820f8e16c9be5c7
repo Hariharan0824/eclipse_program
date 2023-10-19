@@ -1,0 +1,12 @@
+package runner;
+
+import things.Operations;
+
+public class OperationRunner {
+	public static void main(String[] args) {
+		Operations add = new Operations();
+		int value=add.cal("+", 3, 7);
+		System.out.println(value);
+	}
+
+}

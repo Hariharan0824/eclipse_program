@@ -1,0 +1,11 @@
+package com.xwrokz.VegetableRunner;
+
+public class President1DTO {
+
+	public String name;
+	public int id;
+	public String emailid;
+	public int mobileNumber;
+	
+	
+}

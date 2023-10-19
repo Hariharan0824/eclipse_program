@@ -1,7 +1,7 @@
 package things;
 
 public class Tickets {
-	
+
 	private String ticketName;
 	private byte passenger;
 	private int noOFTickets;
@@ -11,19 +11,19 @@ public class Tickets {
 	private double reviews;
 	private boolean service;
 	private char certificate;
-	
-	
-	
-	
+
+
+
+
 	@Override
 	public String toString() {
 		return "Tickets [ticketName=" + ticketName + ", passenger=" + passenger + ", noOFTickets=" + noOFTickets
 				+ ", cost=" + cost + ", workers=" + workers + ", ratings=" + ratings + ", reviews=" + reviews
 				+ ", service=" + service + ", certificate=" + certificate + "]";
 	}
-	
-	
-	
+
+
+
 
 
 	@Override
@@ -114,7 +114,7 @@ public class Tickets {
 	public void setCertificate(char certificate) {
 		this.certificate = certificate;
 	}
-	
-	
+
+
 
 }

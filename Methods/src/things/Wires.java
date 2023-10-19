@@ -1,7 +1,7 @@
 package things;
 
 public class Wires {
-	
+
 	private String nameOfWires;
 	private byte types;
 	private int noOFWires;
@@ -11,19 +11,19 @@ public class Wires {
 	private double reviews;
 	private boolean service;
 	private char certificate;
-	
-	
-	
-	
+
+
+
+
 	@Override
 	public String toString() {
 		return "Wires [nameOfWires=" + nameOfWires + ", types=" + types + ", noOFWires=" + noOFWires + ", cost=" + cost
 				+ ", viwers=" + viwers + ", meter=" + meter + ", reviews=" + reviews + ", service=" + service
 				+ ", certificate=" + certificate + "]";
 	}
-	
-	
-	
+
+
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -114,6 +114,6 @@ public class Wires {
 		this.certificate = certificate;
 	}
 
-	
-	
+
+
 }

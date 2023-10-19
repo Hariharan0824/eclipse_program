@@ -1,0 +1,16 @@
+package com.xwrokz.VegetableRunner;
+
+import java.time.LocalDate;
+
+public class PassportDTO {
+	
+	public int id;
+	public int numbers;
+	public String issuedBy;
+	public LocalDate date;
+	public LocalDate expiryDate;
+	
+	
+	
+
+}

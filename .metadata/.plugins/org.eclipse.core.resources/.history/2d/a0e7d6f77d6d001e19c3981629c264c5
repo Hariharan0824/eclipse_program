@@ -1,0 +1,36 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapRunner {
+ 
+	
+	public static void main(String[] args) {
+		
+		Map<Long, String> map=new HashMap<Long, String>();
+		
+		map.put(8217634102L, "Aishwarya"); //Entry
+		map.put(6379589419L, "Siva"); //Entry
+		map.put(9585256261L, "Nirmala"); //Entry
+		map.put(9585069797L, "Hari"); //Entry
+		map.put(9524321441L, "Dinesh"); //Entry
+		map.put(9876543210L, "Krishna"); //Entry
+		map.put(8765432109L, "rahul"); //Entry
+		map.put(7654321098L, "Aakash"); //Entry
+		map.put(8901234567L, "santhosh"); //Entry
+		map.put(9887667890L, "sarvesh"); //Entry
+		map.put(9011234534L, "ravi"); //Entry
+		map.put(9876541107L, "sagar"); //Entry
+		map.put(9994444444L, "vinotha"); //Entry
+		map.put(9898552266L, "vijay"); //Entry
+		map.put(9977123765L, "ajith"); //Entry
+		map.put(9876234587L, "surya"); //Entry
+		map.put(7898754322L, "kamal"); //Entry
+		map.put(8844789012L, "ranjini"); //Entry
+		map.put(8972345678L, "ranjith"); //Entry
+		map.put(9876234567L, "raja"); //Entry
+		
+		map.values().stream().filter(c->c.length()<10).forEach(System.out::println);
+	}
+}

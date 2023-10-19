@@ -1,0 +1,32 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.Collection;
+import java.util.HashSet;
+
+public class PlayersRunnerDTO {
+	
+	Collection<PlayersDTO> collection1=new HashSet<>();
+	Collection<PlayersDTO> collection2=new HashSet<>();
+
+	PlayersDTO dto=new PlayersDTO(1, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto1=new PlayersDTO(2, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto2=new PlayersDTO(3, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto3=new PlayersDTO(4, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto4=new PlayersDTO(5, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto5=new PlayersDTO(6, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto6=new PlayersDTO(7, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto7=new PlayersDTO(8, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto8=new PlayersDTO(9, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto9=new PlayersDTO(10, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto10=new PlayersDTO(11, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto11=new PlayersDTO(12, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto12=new PlayersDTO(13, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto13=new PlayersDTO(14, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto14=new PlayersDTO(15, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto15=new PlayersDTO(16, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto16=new PlayersDTO(17, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto17=new PlayersDTO(18, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto18=new PlayersDTO(19, "Dhoni", "India", "Cricket", 40);
+	PlayersDTO dto19=new PlayersDTO(20, "Dhoni", "India", "Cricket", 40);
+
+}

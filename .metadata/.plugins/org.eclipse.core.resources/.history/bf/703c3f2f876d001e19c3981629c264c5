@@ -1,0 +1,16 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class PassportRunner {
+
+	public static void main(String[] args) {
+		
+		President1DTO person=new President1DTO("hari",1,"hariharansivaraj08",6379589419L);
+		
+		Map<String, String> map=new HashMap<String, String>();
+		
+		
+	}
+}

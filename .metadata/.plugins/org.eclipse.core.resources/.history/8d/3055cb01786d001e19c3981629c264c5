@@ -1,0 +1,13 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapRunner {
+ 
+	
+	public static void main(String[] args) {
+		
+		Map<Long, String> map=new HashMap<Long, String>();
+	}
+}

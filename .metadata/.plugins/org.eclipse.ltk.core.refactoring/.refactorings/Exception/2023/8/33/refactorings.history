@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.xworkx.exception.things.Exception&apos; to &apos;ExceptionTask&apos;&#x0D;&#x0A;- Original project: &apos;Exception&apos;&#x0D;&#x0A;- Original element: &apos;com.xworkx.exception.things.Exception&apos;&#x0D;&#x0A;- Renamed element: &apos;com.xworkx.exception.things.ExceptionTask&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exception&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.xworkx.exception.things{Exception.java[Exception" matchStrategy="1" name="ExceptionTask" qualified="false" references="true" similarDeclarations="false" stamp="1692084560892" textual="false" version="1.0"/>
+</session>

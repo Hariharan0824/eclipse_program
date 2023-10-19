@@ -10,12 +10,12 @@ public class Juice {
 	private double profit;
 	private boolean service;
 	private char certificate;
-	
-	
+
+
 	public String getJuiceName() {
 		return juiceName;
 	}
-	
+
 	public void setJuiceName(String juiceName) {
 		this.juiceName = juiceName;
 	}
@@ -25,9 +25,9 @@ public class Juice {
 				+ drinker + ", fruitJuice=" + fruitJuice + ", ratings=" + ratings + ", profit=" + profit + ", service="
 				+ service + ", certificate=" + certificate + "]";
 	}
-	
-	
-	
+
+
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -109,7 +109,7 @@ public class Juice {
 	public void setCertificate(char certificate) {
 		this.certificate = certificate;
 	}
-	
-	
+
+
 
 }

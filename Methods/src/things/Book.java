@@ -10,19 +10,19 @@ public class Book {
 	private double reviews;
 	private boolean service;
 	private char certificate;
-	
-	
-	
-	
+
+
+
+
 	@Override
 	public String toString() {
 		return "Book [bookName=" + bookName + ", author=" + author + ", pages=" + pages + ", cost=" + cost + ", viwers="
 				+ viwers + ", ratings=" + ratings + ", reviews=" + reviews + ", service=" + service + ", certificate="
 				+ certificate + "]";
 	}
-	
-	
-	
+
+
+
 
 
 	@Override
@@ -114,6 +114,6 @@ public class Book {
 		this.certificate = certificate;
 	}
 
-	
-	
+
+
 }

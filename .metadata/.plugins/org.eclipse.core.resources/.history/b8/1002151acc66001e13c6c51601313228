@@ -1,0 +1,11 @@
+package com.xwrokz.VegetableRunner;
+
+import java.util.Collection;
+import java.util.HashSet;
+
+public class MovieRunnerDTO {
+	
+	Collection<MovieDTO> collection1=new HashSet<MovieDTO>();
+	Collection<MovieDTO> collection2=new HashSet<MovieDTO>();
+
+}

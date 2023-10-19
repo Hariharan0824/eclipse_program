@@ -1,0 +1,5 @@
+package com.xworkx.exception.runner;
+
+public class ExceptionsRunner {
+
+}

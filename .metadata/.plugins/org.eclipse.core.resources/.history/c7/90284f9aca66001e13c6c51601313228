@@ -1,0 +1,11 @@
+package com.xwrokz.VegetableRunner;
+
+public class MovieDTO {
+	
+	private int id;
+	private String name;
+	private String director;
+	private String producer;
+	private int budget;
+
+}

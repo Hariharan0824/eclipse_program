@@ -5,7 +5,7 @@ public class Palindrom {
 		String word = "GADAG";
 		String reverse="";
 		char[] ch= word.toCharArray();
-		for(int i=ch.length-1;i>=0;i--) {
+		for(int i=ch.length-1;i>=0;i--) {														
 			System.out.println(ch[i]);
 			reverse=reverse+ch[i];
 		}

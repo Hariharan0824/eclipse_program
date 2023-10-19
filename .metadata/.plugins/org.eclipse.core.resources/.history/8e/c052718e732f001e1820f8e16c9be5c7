@@ -1,0 +1,11 @@
+package runner;
+
+import things.Operations;
+
+public class OperationRunner {
+	public static void main(String[] args) {
+		Operations add = new Operations();
+		add.cal("+", 3, 7);
+	}
+
+}

@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/Sep/2023:12:47:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:47:32 +0530] "GET /football HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:47:32 +0530] "GET /football/ HTTP/1.1" 200 285
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:47:34 +0530] "GET /football/message.html HTTP/1.1" 200 322
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:47:43 +0530] "GET /football/message.dosa?name=Xworkz&message=Weekend HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:48:36 +0530] "GET /football/message.dosa?name=Xworkz&message=Weekend HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:48:36 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Sep/2023:12:48:39 +0530] "GET /football/message.dosa?name=Xworkz&message=Weekend HTTP/1.1" 200 -

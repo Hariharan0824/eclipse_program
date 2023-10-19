@@ -1,0 +1,19 @@
+package things;
+
+public class Operations {
+	
+	String operation;
+	int num1;
+	int num2;
+	
+public Operations() {
+	System.out.println("This is No Argument constructor");
+}
+public void adding(String operation,int num1,int num2) {
+	return resutl;
+	System.out.println("Adding the two values"+num1+num2);
+	
+}
+
+}
+

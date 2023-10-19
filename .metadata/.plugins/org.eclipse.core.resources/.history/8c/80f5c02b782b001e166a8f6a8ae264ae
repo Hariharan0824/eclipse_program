@@ -1,0 +1,14 @@
+package com.xworkz.inheritance.things;
+
+public class Appitude {
+	public static void main(String[] args) {
+		String Appiti="Good Morning";
+		char[] Appiti1=Appiti.toCharArray();
+		System.out.println(Appiti1.length);
+		for(int i=Appiti1.length-1;i>=0;i--) {
+			System.out.println(Appiti1[i]+" ");
+		}
+	
+	}
+
+}

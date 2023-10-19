@@ -1,0 +1,14 @@
+package com.xwrokz.VegetableRunner;
+
+public class BrandRunner {
+	
+	public static void main(String[] args) {
+			BrandDTO dto1 = new BrandDTO("Nike","Phil Nike",30.7,"USA");
+			BrandDTO dto2 = new BrandDTO("Titan","Tata",5.1,"India");
+			BrandDTO dto3 = new BrandDTO("Apple","Tim Cook",800,"USA");
+			BrandDTO dto4 = new BrandDTO("Tesla","Elon Musk",8.14,"USA");
+			BrandDTO dto5 = new BrandDTO("Google","Sundar Pichai",280,"USA");
+			
+	}
+
+}
