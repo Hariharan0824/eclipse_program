@@ -13,7 +13,7 @@ public class PassportRunner {
 		President1DTO person2=new President1DTO("hari",3,"hariharansivaraj08",6379589719L);
 		President1DTO person3=new President1DTO("siva",4,"hariharansivaraj08",6379589719L);
 		
-		PassportDTO pass=new PassportDTO(1,10,"hari",LocalDate.of(1999, 3, 1),);
+		PassportDTO pass=new PassportDTO(1,10,"hari",LocalDate.of(1999, 3, 1));
 		
 		Map<String, String> map=new HashMap<String, String>();
 		
